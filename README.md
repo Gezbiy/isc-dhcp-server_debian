@@ -1,1 +1,1 @@
-Setting DHCP & Static With Debian 10
+# Setting DHCP & Static With Debian 10
