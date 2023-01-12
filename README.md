@@ -33,3 +33,13 @@ Systemctl reboot
 cek ip dengan ketik " ip a "
 
 ## Konfigurasi dhcp
+- Install dhcp
+"sebelum melakukan installasi pastikan sudah menambah dvd binary 2"
+``` 
+apt-get install isc-dhcp-server
+```
+- Copy Directory
+``` 
+cp /etc/dhcp/dhcp.conf /etc/dhcp/dhcp.conf.backup
+```
+- Konfigurasi DHCP
