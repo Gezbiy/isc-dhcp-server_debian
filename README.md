@@ -8,9 +8,9 @@
 ```nano /etc/network/interfaces/```
 - Tambahkan script ip static
 ```   
-auto eth1
-      iface eth1 inet static
+ #The primary network interfaces
+      auto enp0s8
+      iface enp0s8 inet static
             address 192.168.67.xx
             netmask 255.255.255.0
-            gateway 192.168.67.1
 ```
