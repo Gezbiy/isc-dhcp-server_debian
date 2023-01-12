@@ -14,3 +14,22 @@
             address 192.168.67.xx
             netmask 255.255.255.0
 ```
+- Tambahkan script IP DHCP
+```
+auto eth1 (sesuaikan dengan pc)
+    iface eth1 inet dhcp
+```
+ctrl + x, lalu save
+- Restart Network
+``` 
+/etc/init.d/networking restart
+          atau
+systemctl networking restart
+```
+- Reboot system
+```
+Systemctl reboot
+```
+cek ip dengan ketik " ip a "
+
+## Konfigurasi dhcp
