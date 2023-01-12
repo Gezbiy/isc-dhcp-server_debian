@@ -50,10 +50,11 @@ scroll dan cari
 ```
  # A slightly different configuration for an internal subnet.
    subnet 192.168.xx.0 netmask 255.255.255.0{
-   range 192.168.xx.5 192.168.xx.57
-   option domain-name-server 192.168.xx.19 (masukan ip yang sama saat setting ip address)
-   option routers 192.168.xx.1
-   option broadcast-address 192.168.xx.31
+   range 192.168.xx.5 192.168.xx.57; 
+   option domain-name-server 192.168.xx.19; (masukan ip yang sama saat setting ip address)
+   option domain-name "namakamu.com"; 
+   option routers 192.168.xx.1;
+   option broadcast-address 192.168.xx.31;
    default-lease-time 600;
    max-lease-time 7200;
    }
