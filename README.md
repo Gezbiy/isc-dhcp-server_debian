@@ -57,4 +57,5 @@ scroll dan cari
    default-lease-time 600;
    max-lease-time 7200;
    }
-   
+```
+input ip yang sama saat melakukan setting ip diawal.
