@@ -63,7 +63,8 @@ scroll dan cari
 ```
 "input ip yang sama saat melakukan setting ip diawal" (ctrl + x, lalu save)
 - setting interface dhcp
-```nano /etc/default/isc-dhcp-server
+```
+nano /etc/default/isc-dhcp-server
 ```
 pada bagian ( interfacev4=" " ), sesuaikan dengan keadaan pc masing masing contoh;
 ```
