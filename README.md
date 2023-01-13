@@ -3,6 +3,13 @@
 - Konfigurasi DNS Server
 - Konfigurasi DHCP Server
 
+## Download DVD Debian 10.10.0
+```
+https://cdimage.debian.org/cdimage/archive/10.10.0/amd64/iso-dvd/debian-10.10.0-amd64-DVD-1.iso
+https://cdimage.debian.org/cdimage/archive/10.10.0/amd64/iso-dvd/debian-10.10.0-amd64-DVD-2.iso
+https://cdimage.debian.org/cdimage/archive/10.10.0/amd64/iso-dvd/debian-10.10.0-amd64-DVD-3.iso
+```
+
 ## Konfigurasi IP Address
  
 ```nano /etc/network/interfaces/```
