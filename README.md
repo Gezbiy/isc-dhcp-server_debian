@@ -23,7 +23,9 @@ ctrl + x, lalu save
 - Restart Network
 ``` 
 /etc/init.d/networking restart
-          atau
+```
+atau
+```
 systemctl networking restart
 ```
 - Reboot system
@@ -59,4 +61,33 @@ scroll dan cari
    max-lease-time 7200;
    }
 ```
-input ip yang sama saat melakukan setting ip diawal.
+"input ip yang sama saat melakukan setting ip diawal" (ctrl + x, lalu save)
+- setting interface dhcp
+```nano /etc/default/isc-dhcp-server
+```
+pada bagian ( interfacev4=" " ), sesuaikan dengan keadaan pc masing masing contoh;
+```
+INTERFACEv4="enp0s8"
+```
+- Restart dhcp
+```
+/etc/init.d/isc-dhcp-server
+```
+atau
+```
+systemctl restart isc-dhcp-server
+```
+- cek status dhcp
+```
+/etc/init.d/isc-dhcp-server status
+```
+atau
+```
+systemctl status isc-dhcp-server
+```
+jika status sudah running maka tanda nya anda sudah berhasil
+- periksa ip bagian "enp0s8"
+```
+ip a
+```
+jika sudahh muncul ip yang sudah di setting sebelumnya, maka sudah selesai
